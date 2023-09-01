@@ -19,10 +19,6 @@ from utils.utils import get_credentials
 ## login
 # input accountid and password
 account, password = get_credentials()
-# account = 223060
-# password = 9537
-print(account)
-print(password)
 # username_elem = driver.find_element_by_xpath('//*[@id="form3"]') # id : form3
 # password_elem = driver.find_element_by_xpath('//*[@id="form2"]') # id : form2
 # username_elem.send_keys(str(account))  
